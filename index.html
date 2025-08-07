@@ -1,16 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Prueba CW18 - Github</title>
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body>
-    <header></header>
+    <header>
+        <nav id="headerLinks">
+            <a href="">Inicio</a>
+            <a href="">0KM</a>
+            <a href="">Usados</a>
+            <a href="">Contacto</a>
+            <a href="">Nosotros</a>
+        </nav>
+    </header>
     <main>
-        <h1>Hola Mundo!</h1>
+        <aside id="filtros">
+            <div id="marca">
+                <h3>Marcas</h3>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Ford</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Chevrolet</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Renault</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Volkswagen</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">BYD</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Fiat</label>
+                </div>
+            </div>
+            <hr>
+            <div id="precio">
+                <h3>Precio</h3>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">U$S 0 - U$S 10000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">U$S 10001 - U$S 25000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">U$S 25001 - U$S 50000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">U$S 50001 - U$S 75000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">U$S 75001 - U$S 100000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioprecio">
+                    <label for="">+ U$S 100000</label>
+                </div>
+            </div>
+            <hr>
+            <div id="kilometros">
+                <h3>Kilometros</h3>
+                <div>
+                    <input type="range">
+                    <label for="">0 - 150000Km</label>
+                </div>
+            </div>
+            <hr>
+            <div id="estado">
+                <h3>Estado</h3>
+                <div>
+                    <input type="radio" name="radioestado">
+                    <label for="">0 Km</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioestado">
+                    <label for="">Usados</label>
+                </div>
+            </div>
+            <hr>
+            <div id="color">
+                <h3>Color</h3>
+                <input type="color">
+            </div>
+            <hr>
+        </aside>
+        <section id="principalContainer">
+            <section id="cardContainer">
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div><div class="card">
+                    <div id="fiatStrada"></div>
+                    <hr>
+                    <div>
+                        <h3>FIAT STRADA</h3>
+                        <p>1.3 FIREFLY FLEX FREEDOM CD MANUAL</p>
+                        <p>Km: 80811</p>
+                        <p>Año: 2021</p>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <nav id="footerLinks">
+            <h2>Redes Sociales</h2>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Tik-Tok</a>
+            <a href="">Youtube</a>
+        </nav>
+        <section>
+            <h2>Ubicación</h2>
+            <div id="datosUbicacion">
+                <div>
+                    <p>Dirección:</p>
+                    <p>Teléfono:</p>
+                    <p>Correo electrónico:</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7023697422055!2d-41.979054223912634!3d-22.552819379505777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b24bac6582b3%3A0xa9c2ff2d7b031268!2sR.%20Alameda%20do%20Abric%C3%B3%20-%20Cidade%20Praiana%2C%20Rio%20das%20Ostras%20-%20RJ%2C%2028890-000!5e0!3m2!1ses-419!2sbr!4v1754570967780!5m2!1ses-419!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>

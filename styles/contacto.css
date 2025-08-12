@@ -1,0 +1,65 @@
+main{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContacto{
+    width: 50%;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+
+#formContacto h2{
+    text-align: center;
+    margin-top: 10px;
+    color: burlywood;
+    font-size: xx-large;
+}
+
+#formContacto form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.datosContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    color: burlywood;
+}
+.datosContainer label{
+    font-size: large;
+    font-weight: 900;
+}
+
+.datosContainer input{
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 75%;
+}
+
+#btnForm {
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+
+#btnForm:hover {
+    background-color: black;
+    border: 2px solid burlywood;
+    color: burlywood;
+}
+
+#textareaForm {
+    width: 75%;
+    border-radius: 10px;
+    padding: 5px;
+}

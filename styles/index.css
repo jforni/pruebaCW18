@@ -33,11 +33,13 @@ main {
     margin: 10px;
 }
 
-#fiatStrada{
-    height: 110px;
-    background-image: url('https://www.autocerto.com/fotos/1923/2982554/1_045729.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 2px;
-}
+ .imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
 
+ .imgContainer img {
+    max-width: 100%;
+ }

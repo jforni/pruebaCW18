@@ -7,6 +7,7 @@
     font-weight: 400;
     font-style: normal;
     --backgroundColor: black;
+    --colorText: burlywood;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
 }
 
 #headerLinks a {
-    color: burlywood;
+    color: var(--colorText);
     text-decoration: none;
 }
 
@@ -39,26 +40,45 @@ header {
 #filtros {
     background-color: var(--backgroundColor);
 }
+
 main {
     background-color: var(--backgroundColor);
     min-height: 100vh;
 }
 
+/* Footer */
 footer {
     background-color: var(--backgroundColor);
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     border-top: 2px solid burlywood;
 }
 
 #footerLinks {
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    color: var(--colorText)
+}
+
+#socialContainer {
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-#footerLinks a, h2, p{
-    color: burlywood;
+#socialContainer a{
+    width: fit-content;
+    color: var(--colorText);
+    text-decoration: none;
 }
-#datosUbicacion {
-    display: flex;
+
+#contactoContainer {
+    width: 50%;
+}
+
+#iframeMapa{
+    width: 90%;
 }

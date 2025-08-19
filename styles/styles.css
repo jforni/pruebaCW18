@@ -69,7 +69,7 @@ footer {
     flex-direction: column;
 }
 
-#socialContainer a{
+#socialContainer a {
     width: fit-content;
     color: var(--colorText);
     text-decoration: none;
@@ -79,6 +79,21 @@ footer {
     width: 50%;
 }
 
-#iframeMapa{
+#iframeMapa {
     width: 90%;
+}
+
+@media (max-width:575px) {
+    #headerLinks{
+        width: 100%;
+    }
+    
+    #footerLinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contactoContainer{
+        margin: 15px 0;
+    }
 }

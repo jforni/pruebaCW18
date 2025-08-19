@@ -43,3 +43,39 @@ main {
  .imgContainer img {
     max-width: 100%;
  }
+
+ @media(min-width: 768px){
+    #filtros {
+        width: 25%;
+    }
+
+    #filtroKilometros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtroPrecio {
+        font-size: 0.7rem;
+    }
+    #principalContainer {
+        width: 75%;
+    }
+
+    .card {
+        width: 25%;
+    }
+ }
+
+ @media(max-width: 767px) {
+    main {
+        flex-direction: column;
+    }
+
+    #filtros, #principalContainer {
+        width: 100%;
+    }
+
+    .card {
+        width: 75%;
+    }
+ }

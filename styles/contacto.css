@@ -1,43 +1,44 @@
-main{
+main {
     /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#formContacto{
+#formContacto {
     width: 50%;
     border: 2px solid burlywood;
     border-radius: 10px;
 }
 
-#formContacto h2{
+#formContacto h2 {
     text-align: center;
     margin-top: 10px;
     color: burlywood;
     font-size: xx-large;
 }
 
-#formContacto form{
+#formContacto form {
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
-.datosContainer{
+.datosContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px;
     color: burlywood;
 }
-.datosContainer label{
+
+.datosContainer label {
     font-size: large;
     font-weight: 900;
 }
 
-.datosContainer input{
+.datosContainer input {
     border-radius: 10px;
     height: 2.5rem;
     width: 75%;
@@ -62,4 +63,29 @@ main{
     width: 75%;
     border-radius: 10px;
     padding: 5px;
+}
+
+@media (max-width:991px){
+    #formContacto {
+        width: 80%;
+    }
+    .datosContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+    #formContacto form {        
+        align-items: center;
+    }
+}
+
+@media (min-width:992px){
+    #formContacto {
+        width: 80%;
+    }
+}
+
+@media (min-width:1200px) {
+     #formContacto {
+        width: 60%;
+    }
 }
